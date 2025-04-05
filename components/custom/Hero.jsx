@@ -27,13 +27,15 @@ const Hero = () => {
           Get Started
         </Button>
       </div>
-      {/* <Image
+      {/*
+       <Image
         src={"./landing.png"}
         alt="landing"
         width={1000}
         height={800}
         className="mt-10 rounded-xl"
-      /> */}
+      /> 
+      */}
     </div>
   );
 };
