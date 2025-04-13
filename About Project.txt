@@ -1,0 +1,6 @@
+For Backend And Database We are Using Coonvex Database.
+Convex is an all-in-one backend and database that integrates quickly and easily with Next.js.
+
+Wrap the Things in Provider ,which is From provider.js
+
+Defining Schema in convex 
