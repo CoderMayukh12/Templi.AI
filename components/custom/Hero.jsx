@@ -1,6 +1,7 @@
 import React from "react";
 import { Parkinsans } from "next/font/google";
 import { Button } from "../ui/button";
+import { SignInButton } from "./SignInButton";
 const parkinsans = Parkinsans({ subsets: ["latin"], weight: "400" });
 const Hero = () => {
   return (
@@ -23,14 +24,13 @@ const Hero = () => {
         <Button variant={"outline"} className="border-amber-950 rounded-2xl">
           Try Demo
         </Button>
-        <Button className="bg-[#1e0e58] text-white hover:bg-[#276365]">
-          Get Started
-        </Button>
+
+        <SignInButton></SignInButton>
       </div>
       {/*
        <Image
         src={"./landing.png"}
-        alt="landing"
+        alt="landing"SignIn
         width={1000}
         height={800}
         className="mt-10 rounded-xl"
